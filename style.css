@@ -1,0 +1,83 @@
+.parent{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+.background-pic{
+    width: 100%;
+    height: 206px;
+    display: flex;
+
+
+    background-image: url('a8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profile-pic{
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 11rem;
+    left:1rem;
+    display: none;
+}
+.first-div{
+    background-color: coral;
+}
+.first-div-para1{
+    display: flex;
+    justify-content: center;
+}
+.first-div-para1 > p>span{
+ padding-left: 7px;
+ padding-right: 6px;
+}
+.first-div-para2{
+    display: flex;
+    justify-content: center;
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.second-div-para1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.second-div-para5{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.blank-div{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+.second-div-para7{
+    display: flex;
+    justify-content: space-around;
+}
+.second-div-para9{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.size{
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 600px) {
+
+} 
+@media only screen and (min-width: 992px) {
+    .first-div-para1{
+        justify-content: center;
+    }
+} 
