@@ -1,9 +1,15 @@
+body{
+    margin: 0px;
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
 .parent{
     width: 100%;
     height: 1200px;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+   
 }
 .background-pic{
     width: 100%;
@@ -26,15 +32,18 @@
     display: none;
 }
 .first-div{
-    background-color: coral;
+    background-color: #f8f8f8;
+    color: #b3b3b3;
 }
 .first-div-para1{
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid gray;
 }
 .first-div-para1 > p>span{
  padding-left: 7px;
  padding-right: 6px;
+ color: #f58700
 }
 .first-div-para2{
     display: flex;
@@ -47,8 +56,12 @@
 }
 .second-div-para1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+}
+.second-div-para2{
+    display: flex;
+ 
 }
 .second-div-para5{
     display: flex;
@@ -59,11 +72,13 @@
 .blank-div{
     width: 100%;
     height: 100px;
-    background-color: blueviolet;
+    
 }
 .second-div-para7{
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid gray;
+    align-items: center;
 }
 .second-div-para9{
     display: flex;
@@ -71,7 +86,24 @@
     justify-content: space-evenly;
 }
 .size{
+    font-size: 1rem;
+    color: #f58700;
+}
+.size1{
     font-size: 1.5rem;
+    padding-top: 0.5rem;
+    color: #f58700;
+}
+.left{
+    padding-left: 0.5rem;
+}
+.primary-heading-background-color{
+ background-color: #f58700;
+ color: white;
+}
+.second-div-para10{
+    background-color: #f8f8f8;
+    height: 80px;
 }
 @media only screen and (min-width: 600px) {
 
